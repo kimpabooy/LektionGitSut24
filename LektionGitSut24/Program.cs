@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Här kommer ännu en rad");
+            Console.WriteLine("Welcome to this game!");
+            Console.WriteLine("Choose a nickname: ");
+            string userName = Console.ReadLine();
+            Console.WriteLine($"welcome {userName}");
             Console.ReadKey();
         }
     }
